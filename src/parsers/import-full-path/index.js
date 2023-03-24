@@ -3,7 +3,8 @@
 const fullPathParse = () => {};
 
 const fullPathPrint = (path, options, print) => {
-  console.log("-----", path.getValue());
+  console.log("-----", path);
+  return options.originalText;
 };
 
 module.exports = { fullPathParse, fullPathPrint };

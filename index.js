@@ -1,6 +1,7 @@
 "use stricts";
 
 const { fullPathPrint } = require("./src/parsers/import-full-path");
+const Parser = require("acorn");
 
 const languages = [
   {
@@ -11,8 +12,10 @@ const languages = [
 
 const parsers = {
   "import-full-path": {
-	  parse:(t) => console.log(t),
-	  astFormat: "import-full-path-AST",
+    parse: (t) => {
+      return Parser.parse(t, { ecmaVersion: 2020 });
+    },
+    astFormat: "import-full-path-AST",
   },
 };
 
