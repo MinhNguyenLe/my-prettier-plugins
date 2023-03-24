@@ -1,0 +1,19 @@
+{
+  "name": "prettier-plugin-btaskee",
+  "version": "1.0.1",
+  "description": "HELLO !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/leminh.nguyen/btaskee-formatter.git"
+  },
+  "author": "minhlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/leminh.nguyen/btaskee-formatter/issues"
+  },
+  "homepage": "https://gitlab.com/leminh.nguyen/btaskee-formatter#readme"
+}
